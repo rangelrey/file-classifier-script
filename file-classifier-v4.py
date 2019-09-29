@@ -1,6 +1,21 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+# In[ ]:
+
+
+cosatemporal = "/run/user/1000/gvfs/gphoto2:host=%5Busb%3A003%2C011%5D/store_00020002$"" 
+
+
+
+
+# In[ ]:
+
+
+folderOrigin = sys.argv[1]
+folderDestination = sys.argv[2]
+
+
 # In[1]:
 
 
