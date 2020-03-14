@@ -43,9 +43,9 @@ def createFolders(year, imageOrVideo):
 
 def isImageOrVideo(file):
     
-    if file[1:].split(".")[len(file[1:].split("."))-1] in formats["video"]:
+    if file[1:].split(".")[len(file[1:].split("."))-1].lower() in formats["video"]:
         return "videos"
-    elif file[1:].split(".")[len(file[1:].split("."))-1] in formats["image"]:
+    elif file[1:].split(".")[len(file[1:].split("."))-1].lower() in formats["image"]:
         return "images"
     else:
         print("\n The file "+str(file)+" will be ingored since it is not a video nor image \n")
@@ -159,5 +159,11 @@ if renamedDuplicateFiles:
     print(" \nRENAMED DUPLICATE FILES: ")
     for file in renamedDuplicateFiles:
         print("\n -"+str(file))
+
+
+
+# In[ ]:
+
+
 
 
