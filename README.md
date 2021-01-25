@@ -6,4 +6,4 @@ It also takes into consieration files inside folders. For example, in your smart
 
 Instructions:
 
-Copy all the files and folders you want to be classifed in
+python file-classifier.py origin_direction destination_direction
